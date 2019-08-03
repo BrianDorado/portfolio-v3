@@ -1,9 +1,19 @@
 .header-navigation{
-    width: 100vw;
+    margin: auto;
+    width: 80vw;
     ul{
-        border-top: 3px solid white;
         display: flex;
         justify-content: space-around;
         list-style: none;
+        a {
+            color:white;
+            text-decoration: none;
+        }
+    }
+    span{
+        border-radius: 50%;
+        background-color: black;
+        color: white;
+        font-size: 70px;
     }
 }

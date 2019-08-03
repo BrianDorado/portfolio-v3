@@ -7,6 +7,8 @@ import './TopNav.scss'
 const TopNav: React.FC = () => {
     return (
         <nav className='header-navigation' >
+            <span>BL</span>
+            <hr/>
             <ul>
                 <li><Link to={projectsRoute}>Projects</Link></li>
                 <li> <Link to={aboutRoute}>About</Link> </li>
@@ -14,6 +16,7 @@ const TopNav: React.FC = () => {
                 <li><Link to={kataRoute}>Kata</Link> </li>
                 <li><Link to={contactRoutes}>Contact</Link> </li>
             </ul>
+            <hr/>
         </nav>
     )
 }

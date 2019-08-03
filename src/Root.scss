@@ -1,7 +1,9 @@
 .App {
   text-align: center;
-  background-image: url('/src/images/sagrada.jpg');
-  min-height: 100vh;
+  background-color: rgba(0, 98, 255, 0.616);
+  height: 100vh;
+  background: url('./images/sagrada.jpg');
+  background-size: cover;
 }
 
 
