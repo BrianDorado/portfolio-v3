@@ -1,7 +1,6 @@
 import React from 'react';
 import { Router, Route, Redirect, Switch } from 'react-router-dom';
 import history from './Config/history';
-import Sagrada from './images/sagrada.jpg';
 import Home from './Pages/Static/Home/';
 import Page from './Pages/Static/404';
 import Kata from './Pages/Kata';
