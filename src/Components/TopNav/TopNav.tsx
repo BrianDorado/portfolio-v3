@@ -1,13 +1,16 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
-import { projectsRoute, aboutRoute, skillsRoute, kataRoute, contactRoutes } from '../../Config/Navigation/routes';
+import { projectsRoute, aboutRoute, skillsRoute, kataRoute, contactRoutes, homeRoute } from '../../Config/Navigation/routes';
 import './TopNav.scss'
 
 
 const TopNav: React.FC = () => {
     return (
         <nav className='header-navigation' >
+            <Link to ={homeRoute}>
             <span>BL</span>
+            </Link>
+            <h1>Brian Larson</h1>
             <h2>FULL STACK DEVELOPER</h2>
             <ul>
                 <li><Link to={projectsRoute}>Projects</Link></li>
