@@ -9,10 +9,12 @@ import {
   homeRoute,
   kataRoute,
   projectsRoute,
+  contactRoutes,
 } from './Config/Navigation/routes';
 import TopNav from './Components/TopNav/TopNav';
 import Projects from './Pages/Projects/Projects';
 import './Root.scss';
+import Contact from './Pages/Static/Contact/Contact';
 
 const App: React.FC = () => {
   return (
@@ -24,6 +26,7 @@ const App: React.FC = () => {
           <Route exact path={kataRoute} component={Kata} />
           <Route exact path={projectsRoute} component={Projects} />
           <Route exact path={routeNotFound} component={Page} />
+          <Route exact path={contactRoutes} component = {Contact}/>
           <Redirect to={routeNotFound} />
         </Switch>
       </div>
