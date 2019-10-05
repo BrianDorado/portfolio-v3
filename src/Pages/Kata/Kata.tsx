@@ -11,13 +11,7 @@ export default class Kata extends React.Component {
 
     retrieveUser = async () => {
         const meta = await axios.get(
-          'https://www.codewars.com/api/v1/users/Blars',
-          {
-            headers: {
-              Authorization: process.env.CODEWARS_ACEESS_TOKEN,
-              'Access-Control-Allow-Origin': '*',
-            },
-          },
+          `https://www.codewars.com/api/v1/users/Blars?access_key=${process.env.CODEWARS_ACCESS_TOKEN}`
         );
 
         this.setState({
