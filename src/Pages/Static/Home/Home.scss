@@ -1,55 +1,96 @@
-.action-alert-userScroll{
-    border: 2px white;
-    border-radius: 50%;
-    // margin-left: 50vw;
-    margin-top: 10vh;
-    font-size: 35px;
-    // position: fixed;
-    animation: bounce 3s infinite;
+.action-alert-userScroll {
+  border: 2px white;
+  border-radius: 50%;
+  // margin-left: 50vw;
+  margin-top: 10vh;
+  font-size: 35px;
+  // position: fixed;
+  animation: bounce 3s infinite;
 }
 
 .action-alert-downArrow {
-    color: white;
-    position: bottom;
-    margin-bottom: 10vh
+  color: white;
+  position: bottom;
+  margin-bottom: 10vh;
 }
-.developer-synopsis-container{
-    width: 75vw;
-    margin: auto;
-    background-color: white;
+.developer-synopsis-container {
+  width: 75vw;
+  margin: auto;
+  background-color: white;
 }
 p {
-    text-align: left;
-    padding: 25px;
+  text-align: left;
+  padding: 25px;
 }
 
 .developer-skills-images {
-    ul{
-        background: 50% rgba(255, 255, 255, 0.459);
-        opacity: 50%;
-        width: 60vw;
-        margin: auto;
-        display: flex;
-        // flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        align-content: center;
-        list-style: none;
-    }
-    img {
-        height: 80px;
-        margin: 1.5rem;
-    }
+  ul {
+    background: 50% rgba(255, 255, 255, 0.459);
+    opacity: 50%;
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    list-style: none;
+  }
+  img {
+    height: 80px;
+    margin: 1.5rem;
+  }
+}
+
+.home-page-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  a {
+    color: black;
+  }
+  background: rgba(221, 221, 221, 0.602);
+  height: 70px;
+}
+
+.social-media-container {
+  width: 45vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social-media-icon {
+  font-size: 35px;
 }
 
 @-webkit-keyframes bounce {
-	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}	
-	40% {-webkit-transform: translateY(-30px);}
-	60% {-webkit-transform: translateY(-15px);}
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -webkit-transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+  }
 }
 @keyframes bounce {
-	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-	40% {transform: translateY(-30px);}
-	60% {transform: translateY(-15px);}
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
 }

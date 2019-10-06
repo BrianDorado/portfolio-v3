@@ -1,17 +1,17 @@
 import React from 'react';
 import { Layout, Icon } from 'antd';
 // import Footer from '../../../Components/Footer'
-import AWS from '../../../images/AWS.png'
-import JS from '../../../images/JavaScript-logo.png'
-import TS from '../../../images/ts.png'
-import Node from '../../../images/nodejs-new-pantone-black.png'
-import GraphQL from '../../../images/GraphQL_Logo.svg.png'
-import ReactLogo from '../../../images//react.png'
-import HTML from '../../../images/1200px-HTML5_logo_and_wordmark.svg.png'
-import CSS from '../../../images/CSS3_logo_and_wordmark.svg.png'
+import AWS from '../../../images/AWS.png';
+import JS from '../../../images/JavaScript-logo.png';
+import TS from '../../../images/ts.png';
+import Node from '../../../images/nodejs-new-pantone-black.png';
+import GraphQL from '../../../images/GraphQL_Logo.svg.png';
+import ReactLogo from '../../../images//react.png';
+import HTML from '../../../images/1200px-HTML5_logo_and_wordmark.svg.png';
+import CSS from '../../../images/CSS3_logo_and_wordmark.svg.png';
 import './Home.scss';
 
-const {Header, Content, Footer} = Layout
+const { Header, Content, Footer } = Layout;
 
 const Home: React.FC = () => {
   return (
@@ -20,9 +20,11 @@ const Home: React.FC = () => {
         <section className="developer-synopsis-container">
           <div>
             <p>
-              I am  Full Stack developer working for a company called Partnet. I specialize in React, Javascript, Typescript and AWS. 
-              <strong>School:</strong> I was recently accepted into Utah Valley University and plan to start studying in the spring. 
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              I am Full Stack developer working for a company called Partnet. I
+              specialize in React, Javascript, Typescript and AWS.
+              <strong>School:</strong> I was recently accepted into Utah Valley
+              University and plan to start studying in the spring. Sed ut
+              perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
               quae ab illo inventore veritatis et quasi architecto beatae vitae
               dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
@@ -88,10 +90,21 @@ const Home: React.FC = () => {
           qui dolorem eum fugiat quo voluptas nulla pariatur?{' '}
         </p>
       </Content>
-      <Footer style={{ display: 'flex', justifyContent: 'space-around' , alignItems: 'center'}}>
-        <Icon type="github" style={{ fontSize: '35px' }} />
-        <Icon type="twitter" style={{ fontSize: '35px' }} />
-        <Icon type="linkedin" style={{ fontSize: '35px' }} />
+      <Footer
+      className='home-page-footer'
+      >
+        <div className='social-media-container'>
+
+        <a href="https://github.com/BrianDorado">
+          <Icon type="github" className='social-media-icon' />
+        </a>
+        <a href="https://twitter.com/Pandamanatee">
+          <Icon type="twitter" className='social-media-icon' />
+        </a>
+        <a href="https://www.linkedin.com/in/larsonbrianj/">
+          <Icon type="linkedin" className='social-media-icon' />
+        </a>
+        </div>
       </Footer>
     </Layout>
   );
