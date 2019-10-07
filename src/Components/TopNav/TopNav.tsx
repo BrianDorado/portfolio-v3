@@ -12,6 +12,7 @@ const TopNav: React.FC = () => {
             </Link>
             <h1>Brian Larson</h1>
             <h2>FULL STACK DEVELOPER</h2>
+            {/* everything above should be moved into Home component */}
             <ul>
                 <li><Link to={projectsRoute}>Projects</Link></li>
                 <li> <Link to={aboutRoute}>About</Link> </li>
