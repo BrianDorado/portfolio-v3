@@ -11,7 +11,9 @@ import HTML from '../../../images/1200px-HTML5_logo_and_wordmark.svg.png';
 import CSS from '../../../images/CSS3_logo_and_wordmark.svg.png';
 import './Home.scss';
 
-const { Header, Content, Footer } = Layout;
+const { 
+  // Header,
+   Content, Footer } = Layout;
 
 const Home: React.FC = () => {
   return (

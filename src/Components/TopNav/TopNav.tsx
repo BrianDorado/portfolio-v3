@@ -14,10 +14,10 @@ const TopNav: React.FC = () => {
             <h2>FULL STACK DEVELOPER</h2>
             {/* everything above should be moved into Home component */}
             <ul>
-                {/* <li><Link to={projectsRoute}>Projects</Link></li> */}
-                {/* <li> <Link to={aboutRoute}>About</Link> </li> */}
+                <li><Link to={projectsRoute}>Projects</Link></li>
+                <li> <Link to={aboutRoute}>About</Link> </li>
                 <li><Link to={skillsRoute}>Skills</Link></li>
-                {/* <li><Link to={kataRoute}>Kata</Link> </li> */}
+                <li><Link to={kataRoute}>Kata</Link> </li>
                 <li><Link to={contactRoutes}>Contact</Link> </li>
             </ul>
         </nav>
